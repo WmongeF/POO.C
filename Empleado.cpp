@@ -22,16 +22,15 @@ class Empleado : Persona{
   void setApellidos(string ape){apellidos = ape;}
   void setDireccion(string dir){direccion = dir;}
   void setTelefono(int tel){telefono = tel;}
-  //get (mostrar)
+
   int getCodigoEmpleado(){return CodigoEmpleado;}
   int getSuelo(){return Sueldo;}
   string getCargo(){return Cargo;}
   string getNombres(){return nombres;}
-  string getApellidos(){	return apellidos;}
-  string getDireccion(){	return direccion;}
-  int getTelefono(){	return telefono;}
+  string getApellidos(){return apellidos;}
+  string getDireccion(){return direccion;}
+  int getTelefono(){return telefono;}
   
-// metodo
 void mostrar(){
 	cout<<"______________________"<<endl;
 	cout<<CodigoEmpleado<<","<<Sueldo<<","<<Cargo<<","<<nombres<<","<<apellidos<<","<<direccion<<","<<telefono<<endl;
